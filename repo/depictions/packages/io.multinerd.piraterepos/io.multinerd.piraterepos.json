@@ -2,7 +2,7 @@
 	"name": "Pirate Repositories",
 	"package": "io.multinerd.piraterepos",
 	"author": "Multinerd",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "Installs a bunch of pirate repos.",
 	"changelog": {
 		"0.1": [
@@ -17,12 +17,8 @@
 		"0.2": [
 			"Added https://cydia.appaddict.org/",
 			"Removed http://cydia.popcorn-time.se/"
-		],
-
-
+		]
 	},
-	"screenshots": {
-	},
-	"links": {
-	}
+	"screenshots": {},
+	"links": {}
 }

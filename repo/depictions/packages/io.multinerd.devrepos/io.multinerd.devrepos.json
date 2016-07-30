@@ -2,7 +2,7 @@
 	"name": "Developer Repositories",
 	"package": "io.multinerd.devrepos",
 	"author": "Multinerd",
-	"version": "0.3",
+	"version": "0.4",
 	"description": "Installs a bunch of developers repos. (see changelog)",
 	"changelog": {
 		"0.1": [
@@ -38,10 +38,8 @@
 			"Added http://www.williamlcobb.com/repo/",
 			"Added http://cokepokes.github.io/",
 			"Added http://beta.unlimapps.com/"
-		],
+		]
 	},
-	"screenshots": {
-	},
-	"links": {
-	}
+	"screenshots": {},
+	"links": {}
 }
