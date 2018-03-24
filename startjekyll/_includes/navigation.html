@@ -1,0 +1,42 @@
+<nav class="navbar sticky-top navbar-dark aqua-gradient navbar-expand-md">
+
+	<!-- Navbar brand -->
+	<a class="navbar-brand" href="#">
+		<img src="/img/wfavicon.png" alt="" height="30">
+		<!--<a class="navbar-brand" href="/">Multinerd ❤️</a> -->
+	</a>
+
+	<!-- Collapse button -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<!-- Collapsible content -->
+	<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+		<!--Links -->
+		<ul class="navbar-nav nav nav-tabs">
+			{% for p in site.pages %} {% if p.title %} {% if p.url == page.url %}
+			<li class="nav-item waves-effect waves-light active"> {% else %}
+			<li class="nav-item waves-effect waves-light"> {% endif %}
+				<a id="aPanel{{ p.title }}" class="nav-link waves-effect waves-light" href="#panel{{ p.title }}" data-toggle="tab" role="tab" aria-selected="false">
+					<i class="fa {{p.faicon}}" aria-hidden="true"></i>
+					{{ p.title }} {% if p.url == page.url %}
+					<span class="sr-only">(current)</span>
+					{% endif %}
+				</a>
+			</li> {% endif %} {% endfor %}
+		</ul>
+
+		<ul class="navbar-nav smooth-scroll">
+			<li class="nav-item">
+				<a class="nav-link waves-effect waves-light" href="#footer">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					Contact
+				</a>
+			</li>
+		</ul>
+		<!--/Links-->
+	</div>
+</nav>
+<!--/Nav-->
