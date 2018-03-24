@@ -1,14 +1,8 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
----
+  ---
 
-@import	"base";
-@import	"logo";
-@import	"custom";
-@import	"colors";
-@import	"work";
-@import "repository";
-@import "syntax-highlighting";
+@import	"base", "logo", "custom", "colors", "work", "repository", "syntax-highlighting";
 
 
 #jarallax-container-0 {
