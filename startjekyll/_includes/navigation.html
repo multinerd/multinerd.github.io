@@ -12,10 +12,10 @@
 	</button>
 
 	<!-- Collapsible content -->
-	<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+	<div class="navbar-collapse collapse justify-content-between" id="navbarSupportedContent">
 
 		<!--Links -->
-		<ul class="navbar-nav nav nav-tabs">
+		<ul class="nav navbar-nav nav-tabs">
 			{% for p in site.pages %} {% if p.title %} {% if p.url == page.url %}
 			<li class="nav-item waves-effect waves-light active"> {% else %}
 			<li class="nav-item waves-effect waves-light"> {% endif %}
