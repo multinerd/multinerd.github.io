@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<!--Head-->
-{% include head.html %}
-	<!--/Head-->
 
 
-	<body id="top-section">
-
-		<!--Intro-->
-{% include intro.html %}
-		<!--/Intro-->
+	<body>
 
 		<!--Navigation-->
-{% include navigation.html %}
+{% include nav.html %}
 		<!--/Navigation-->
 
 
+
+
+		<!--Content-->
 		<main id="main-content">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="tab-content mb-5">
+					<div class="tab-content">
 						{% for p in site.pages %} {% if p.title %}
 						{{ p.content }}
 						{% endif %} {% endfor %}
 					</div>
 				</div>
 			</div>
-
 		</main>
+		<!--/Content-->
+
+
 
 		<!--Footer-->
-{% include footer.html %}
+		<footer id="footer" class="page-footer pt-4 mt-4 aqua-gradient">
+
+			<!--Social Buttons-->
+			<div class="footer-socials text-center mb-3 wow fadeIn" data-wow-delay="0.2s">
+
+				<div class="container-fluid">
+					<a id="footer-social-github" class="btn-floating btn-social-all" href="https://github.com/multinerd" target="_blank">
+						<i class="fa fa-github left"></i> </a>
+
+					<a id="footer-social-linkedin" class="btn-floating btn-social-all" href="https://www.linkedin.com/in/michael-hedaitulla/" target="_blank">
+						<i class="fa fa-linkedin left"></i> </a>
+				</div>
+			</div>
+			<!--/Social Buttons-->
+
+			<!--Copyright-->
+			<div class="footer-copyright text-center py-3 fadeIn" data-wow-delay="0.2s">
+				<div class="container-fluid">
+					© 2018 Copyright:
+					<a href="https://multinerd.github.io"> multinerd.io </a>
+					|
+					<a href="https://multinerd.github.io"> multinerd.github.io </a>
+				</div>
+			</div>
+			<!--/Copyright-->
+
+		</footer>
 		<!--/Footer-->
 
 
+		<!-- JQuery -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap tooltips -->
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="js/mdb.min.js"></script>
+		<!-- Personal script -->
+		<script type="text/javascript" src="js/script.js"></script>
 
 	</body>
+
 
 </html>

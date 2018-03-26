@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!--Head-->
 	<head>
 		<meta charset="utf-8">
 		<meta name="robots" content="index,nofollow">
@@ -45,3 +49,52 @@
 			}
 		</style>
 	</head>
+	<!--/Head-->
+
+
+	<body id="top-section">
+	
+
+
+
+
+		<main id="main-content">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="tab-content mb-5">
+						{% for p in site.pages %} {% if p.title %}
+						{{ p.content }}
+						{% endif %} {% endfor %}
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+		<!--Scroll To Top-->
+		<!--<div class="fixed-action-btn smooth-scroll float-right" style="bottom: 45px; right: 24px;">-->
+			<!--<a href="#top-section" class="btn-floating btn-sm red">-->
+				<!--<i class="fa fa-arrow-up"></i>-->
+			<!--</a>-->
+		<!--</div>-->
+		<!--/Scroll To Top-->
+
+
+		<!-- JQuery -->
+		<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap tooltips -->
+		<script type="text/javascript" src="/js/popper.min.js"></script>
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="/js/mdb.min.js"></script>
+		<!-- Personal script -->
+		<script type="text/javascript" src="/js/script.js"></script>
+		<script>
+            new WOW().init();
+		</script>
+
+	</body>
+
+</html>

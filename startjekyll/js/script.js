@@ -1,7 +1,4 @@
 $(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-});
-
-$(function() {
-    
+    new WOW().init();
+    console.log( "loaded WOW!" );
 });

@@ -5,7 +5,7 @@
   location: Ridgewood, NY
   building: Main Office
   jobdescription: Software Developer
-  logo: img/work/westernbeef.jpg
+  logo: /img/work/westernbeef.jpg
 
 - name: Western Beef 2
   codename: westernBeef
@@ -14,7 +14,7 @@
   location: Ridgewood, NY
   building: Main Office
   jobdescription: Software Developer
-  logo: img/work/westernbeef.jpg
+  logo: /img/work/westernbeef.jpg
 
 - name: Western Beef 3
   codename: westernBeef
@@ -23,4 +23,4 @@
   location: Ridgewood, NY
   building: Main Office
   jobdescription: Software Developer
-  logo: img/work/westernbeef.jpg
+  logo: /img/work/westernbeef.jpg

@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+author: Michael S. Hedaitulla
 date:   2015-11-30 00:10:45
 categories: jekyll update
+image: https://mdbootstrap.com/img/Photos/Horizontal/City/8-col/img%20%2859%29.jpg
+preview: "two"
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
