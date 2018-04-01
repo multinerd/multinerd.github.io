@@ -74,7 +74,7 @@
 			<!-- single -->            
 			<li class="nav-item waves-effect waves-light"> 
 				<a class="nav-link waves-effect waves-light" href="/about/">
-					<i class="fa " aria-hidden="true"></i> About  </a>
+					<i class="fa fa-user" aria-hidden="true"></i> About </a>
 			</li>
 
 			  
@@ -82,7 +82,7 @@
 			<!-- single -->            
 			<li class="nav-item waves-effect waves-light"> 
 				<a class="nav-link waves-effect waves-light" href="/work/">
-					<i class="fa " aria-hidden="true"></i> Work  </a>
+					<i class="fa fa-building" aria-hidden="true"></i> Work </a>
 			</li>
 
 			  
@@ -90,7 +90,7 @@
 			<!-- single -->            
 			<li class="nav-item waves-effect waves-light"> 
 				<a class="nav-link waves-effect waves-light" href="/tech/">
-					<i class="fa " aria-hidden="true"></i> Tech  </a>
+					<i class="fa fa-code" aria-hidden="true"></i> Tech </a>
 			</li>
 
 			  
@@ -98,7 +98,7 @@
 			<!-- single -->            
 			<li class="nav-item waves-effect waves-light"> 
 				<a class="nav-link waves-effect waves-light" href="/projects/">
-					<i class="fa " aria-hidden="true"></i> Projects  </a>
+					<i class="fa fa-desktop" aria-hidden="true"></i> Projects </a>
 			</li>
 
 			  
@@ -106,17 +106,19 @@
 			<!-- single -->            
 			<li class="nav-item waves-effect waves-light"> 
 				<a class="nav-link waves-effect waves-light" href="/training/">
-					<i class="fa " aria-hidden="true"></i> Training  </a>
+					<i class="fa fa-book" aria-hidden="true"></i> Training </a>
 			</li>
 
 			  
 			<!-- nested -->
-			<li class="nav-item dropdown">
+			<li id class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" id="navbarMisc" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Misc</a>
 				<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarMisc">
 					
-					<a class="dropdown-item " href="/repository/">Cydia Repository</a> 
-					<a class="dropdown-item " href="/blog/">Blog</a> 
+					<a class="dropdown-item " href="/repository/">
+						<i class="fa fa-terminal" aria-hidden="true"></i> Cydia Repository </a> 
+					<a class="dropdown-item " href="/blog/">
+						<i class="fa fa-pencil" aria-hidden="true"></i> Blog </a> 
 				</div>
 			</li>
 			 
@@ -127,47 +129,28 @@
 		<form id="searchForm" class="form form-inline">
 			<div class="md-form mt-0">
 				<i class="fa fa-search"></i>
-				<input id="searchField" class="form-control mr-sm-2 searchField" placeholder="Search" type="text" aria-label="Search">
+				<input id="searchField" class="form-control mr-sm-2 searchField" placeholder="Search" type="text" aria-label="Search" onclick="search(this)">
 				<div class="search-results"></div>
 			</div>
 		</form>
 
-			<div class="search-wrapper">
-				<input id="search" class="search-box" placeholder="Search" value="">
-				<i class="material-icons search-button" onclick="search(this)">search</i>
-				<div class="search-results"></div>
-			</div>
-
 		<script>
-            function search(clicked){
-                q = $(clicked).siblings('.search-box')[0].value;
-                window.location.href = "/search/?q="+q;
+            function search(clicked) {
+                alert('Not Yet Implemented...')
+                // var q = clicked.value;
+                // window.location.href = "/search/?q=" + q;
             }
 		</script>
 
-
 		<!-- Collapsible content -->
 
-		<script>
-            $(document).ready(function() {
-                // enter keyd
-                $('#searchField').bind('keypress', function(e) {
-                    if (e.keyCode == 13 || e.keyCode == 10) {
-                        alert(this.value);
-                    }
-                });
-            });
-
-		</script>
 	</div>
 </nav><!--/.Navbar-->
 
         <!--/Navigation -->
 
-        <main>
-<!--Main layout-->
-
-	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(/img/repo/bg.jpg);">
+        <main class="mt-5">
+		<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(/img/repo/bg.jpg);">
 		<div class="full-bg-img">
 
 			<div class="mask rgba-black-strong rgba-gradient d-flex justify-content-center align-items-center">
@@ -205,7 +188,7 @@
 
 	</div>
 
-<!--/Main layout-->
+
         </main>
 
         <!--Footer-->
