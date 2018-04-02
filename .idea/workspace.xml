@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25e94a9-7755-4051-8372-0a9e5b7f033e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/tech/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/tech/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/training/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/training/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/work/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/work/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/.jekyll-metadata" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/.jekyll-metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_layouts/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_layouts/tabpanel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_pages/01_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_pages/01_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_pages/10_work.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_pages/10_work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_pages/11_technologies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_pages/11_technologies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_pages/12_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_pages/12_projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my website/_pages/13_training.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_pages/13_training.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my website/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_layouts/default.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,51 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01_about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my website/_pages/01_about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11_technologies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my website/_pages/11_technologies.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_work.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my website/_pages/10_work.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12_projects.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my website/_pages/12_projects.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13_training.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my website/_pages/13_training.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="98_blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/my website/_pages/98_blog.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,18 +35,63 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my website/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/my website/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/my website/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrolltotop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my website/_includes/scrolltotop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my website/_includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my website/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my website/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=" unused code.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my website/_includes/ unused code.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -122,6 +109,9 @@
         <option value="$PROJECT_DIR$/src/my website/_pages/12_projects.html" />
         <option value="$PROJECT_DIR$/src/my website/_pages/13_training.html" />
         <option value="$PROJECT_DIR$/src/my website/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/src/my website/_includes/scrolltotop.html" />
+        <option value="$PROJECT_DIR$/src/my website/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/src/my website/_layouts/default.html" />
       </list>
     </option>
   </component>
@@ -157,6 +147,13 @@
               <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="my website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="my website" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -224,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522629847409</updated>
-      <workItem from="1522629848808" duration="381000" />
+      <workItem from="1522629848808" duration="557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381000" />
+    <option name="totallyTimeSpent" value="557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -343,6 +340,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my website/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my website/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my website/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my website/_includes/ unused code.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my website/_includes/scrolltotop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my website/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
