@@ -6,6 +6,7 @@
   building: Main Office
   jobdescription: Software Developer
   logo: /img/work/westernbeef.jpg
+  color: F7931E
 
 - name: Western Beef 2
   codename: westernBeef
@@ -15,6 +16,7 @@
   building: Main Office
   jobdescription: Software Developer
   logo: /img/work/westernbeef.jpg
+  color: F7931E
 
 - name: Western Beef 3
   codename: westernBeef
@@ -24,3 +26,4 @@
   building: Main Office
   jobdescription: Software Developer
   logo: /img/work/westernbeef.jpg
+  color: F7931E

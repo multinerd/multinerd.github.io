@@ -8,13 +8,13 @@ keywords: nm, conceptor, developer, bertrand, choubert, website, web, front, fro
 logo: /img/icons/favicon-32x32.png
 #permalink: /:categories/:title/
 url: "http://multinerd.github.io"
-baseurl: "/site/"
+baseurl: "/site"
 
 
 # Build Settings
 sass:
   style: compressed
-  sass_dir: _sass
+  sass_dir: css
 include: ['_pages']
 
 
@@ -33,4 +33,4 @@ markdown: kramdown
 
 # permalink
 permalink: pretty
-#permalink: /:categories/:title/
+#permalink: /:baseurl/:title/

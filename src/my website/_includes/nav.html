@@ -1,28 +1,29 @@
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
-	<!-- Navbar brand -->
-	<a class="navbar-brand" href="/"> <img src="/img/icons/favicon-194x194.png" alt="" height="30">
-		<!--<a class="navbar-brand" href="/">Multinerd ❤️</a> -->
-	</a>
+	<!--Navbar Brand -->
+	<a class="navbar-brand" href="{{ site.baseurl }}/">
+		<img src="{{ site.baseurl }}/img/icons/favicon-194x194.png" alt="" height="30"> </a>
+	<!--/Navbar Brand -->
 
-	<!-- Collapse button -->
+	<!--Collapse button -->
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
+	<!--/Collapse button -->
 
-	<!-- Collapsible content -->
-	<div class="collapse navbar-collapse" id="navbarToggleContent">
+	<!--Collapsible content -->
+	<div class="navbar-collapse collapse" id="navbarToggleContent">
 
 		<!-- Links -->
-		<ul class="nav navbar-nav navbar-tabs mx-auto">
+		<ul class="list-unstyled navbar-nav mx-auto">
 			{% for nav in site.data.navigation %} {% if nav.items %}
 			<!-- nested -->
 			<li id class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" id="navbar{{ nav.title }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav.title }}</a>
-				<div class="dropdown-menu dropdown-primary" aria-labelledby="navbar{{ nav.title }}">
+				<a class="nav-link dropdown-toggle title waves-effect waves-light" id="navbar{{ nav.title }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav.title }}</a>
+				<div class="dropdown-menu" aria-labelledby="navbar{{ nav.title }}">
 					{% for item in nav.items %}
-					<a class="dropdown-item {{ color }}" href="{{ item.link | relative_url }}">
+					<a class="dropdown-item waves-effect waves-light" href="{{ item.link | relative_url }}">
 						<i class="fa {{item.icon}}" aria-hidden="true"></i> {{ item.title }}{% if p.url == page.url %}
 						<span class="sr-only">(current)</span> {% endif %} </a> {% endfor %}
 				</div>
@@ -52,13 +53,15 @@
 
 		<script>
             function search(clicked) {
-                // alert('Not Yet Implemented...')
-                var q = clicked.value;
-                window.location.href = "/search/?q=" + q;
+                alert('Not Yet Implemented...');
+                // var q = clicked.value;
+                // window.location.href = "/search/?q=" + q;
             }
 		</script>
 
 		<!-- Collapsible content -->
 
 	</div>
-</nav><!--/.Navbar-->
+	<!--/Collapsible content -->
+
+</nav><!--/Navbar-->
