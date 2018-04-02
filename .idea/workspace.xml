@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25e94a9-7755-4051-8372-0a9e5b7f033e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/my website/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/my website/_layouts/default.html" afterDir="false" />
-    </list>
+    <list default="true" id="b25e94a9-7755-4051-8372-0a9e5b7f033e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/my website/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -137,52 +135,6 @@
               <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my website" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my website" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my website" type="462c0819:PsiDirectoryNode" />
-              <item name="_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my website" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multinerd.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multinerd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="my website" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -221,16 +173,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522629847409</updated>
-      <workItem from="1522629848808" duration="557000" />
+      <workItem from="1522629848808" duration="782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557000" />
+    <option name="totallyTimeSpent" value="782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -376,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/my website/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="459">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
